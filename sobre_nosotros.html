@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre Nosotros</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+/>
+</head>
+<body>
+  <!-- 1. Barra superior tipo ventana macOS -->
+  <div class="top-bar">
+    <!-- Círculos a la izquierda -->
+    <div class="window-controls">
+      <span class="circle circle-1"></span>
+      <span class="circle circle-2"></span>
+      <span class="circle circle-3"></span>
+    </div>
+    <h2 class="title">Nombre de la empresa</h2>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-light border-top border-bottom px-3" id="secondBar">
+    <div class="container-fluid">
+      <!-- Botón hamburguesa (móvil) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Menús alineados a la izquierda sin espacios adicionales -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sobre_nosotros.html">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Accordion con información de la empresa -->
+  <section class="container my-4">
+    <div class="accordion" id="accordionInfo">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEmpresa">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmpresa">
+            Información de la Empresa
+          </button>
+        </h2>
+        <div id="collapseEmpresa" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <p>Datos de la empresa: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingMision">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMision">
+            Misión
+          </button>
+        </h2>
+        <div id="collapseMision" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p>Nuestra misión es brindar productos de calidad que satisfagan a nuestros clientes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingVision">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVision">
+            Visión
+          </button>
+        </h2>
+        <div id="collapseVision" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p>Nuestra visión es ser líderes en el mercado y expandirnos internacionalmente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de empleados -->
+  <section class="container text-center my-4">
+    <!-- Título adicional: "NUESTRO EQUIPO" -->
+    <h3 class="mb-3">NUESTRO EQUIPO</h3>
+    <div class="row">
+      <!-- Empleado 1 -->
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Empleado 1" class="img-fluid rounded-circle mb-2" width="150">
+        <h5>Empleado 1</h5>
+        <p>Perfil del empleado.</p>
+        <!-- Ejemplo con íconos Font Awesome -->
+<a href="https://facebook.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://twitter.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://linkedin.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  
+      </div>
+      <!-- Empleado 2 -->
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Empleado 2" class="img-fluid rounded-circle mb-2" width="150">
+        <h5>Empleado 2</h5>
+        <p>Perfil del empleado.</p>
+        <!-- Ejemplo con íconos Font Awesome -->
+<a href="https://facebook.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://twitter.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://linkedin.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  
+      </div>
+      <!-- Empleado 3 -->
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Empleado 3" class="img-fluid rounded-circle mb-2" width="150">
+        <h5>Empleado 3</h5>
+        <p>Perfil del empleado.</p>
+        <!-- Ejemplo con íconos Font Awesome -->
+<a href="https://facebook.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://twitter.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://linkedin.com" target="_blank" class="btn btn-light btn-sm">
+    <i class="fab fa-linkedin-in"></i>
+  </a>  
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

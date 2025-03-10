@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Banner y carrusel */
+  .banner {
+    height: 300px;
+    overflow: hidden;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; /* Mantiene la relación de aspecto cubriendo el área */
+    object-position: center; /* Centra el contenido de la imagen */
+  }
+  /* Contenedores y márgenes */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Botones */
+  button,
+  .btn {
+    margin: 5px;
+  }
+  
+  /* Estilos alternativos (para cambiar fondo y texto) */
+  .modo-1 {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .modo-2 {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .modo-3 {
+    background-color: #007bff;
+    color: #fff;
+  }
+  /* Barra superior oscura tipo ventana macOS */
+.top-bar {
+    background-color: #030303; /* Ajusta el color si deseas */
+    color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 1rem;
+  }
+  
+  /* Contenedor de los 3 círculos a la izquierda */
+  .window-controls {
+    position: absolute; /* Para que no desplace el título */
+    left: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  /* Círculos tipo macOS */
+  .circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .circle-1 {
+    background-color: #352c2c;
+  }
+  .circle-2 {
+    background-color: #352c2c;
+  }
+  .circle-3 {
+    background-color: #352c2c;
+  }
+  
+  /* Título centrado en la barra */
+  .top-bar .title {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+  /* Estilos para la barra de navegación */
+#secondBar {
+    border-top: 1px solid #080101 !important;
+    border-bottom: 1px solid #080101 !important;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Eliminar padding adicional */
+  .navbar-nav {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  #navbarNav {
+    padding-left: 0;
+  }
+  /* Ajusta ancho máximo del formulario para que no se vea tan ancho */
+#registroForm {
+    max-width: 900px; /* Ajusta el valor a tu gusto */
+    margin: 0 auto;   /* Centra el formulario en pantallas grandes */
+  }
+  
+  
+  
